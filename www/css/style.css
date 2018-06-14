@@ -1,1 +1,42 @@
 /* Empty. Add your own CSS if you like */
+<pre>
+  <code>
+    table {
+      border-collapse: collapse;
+    }
+    td {
+      border: 6px solid #222;
+    }
+    td:first-of-type {
+      border-left-color: transparent;
+      border-top-color: transparent;
+    }
+    td:nth-of-type(2) {
+      border-top-color: transparent;
+    }
+    td:nth-of-type(3) {
+      border-right-color: transparent;
+      border-top-color: transparent;
+    }
+    tr:nth-of-type(3) td {
+      border-bottom-color: transparent;
+      }
+  </code>
+</pre>
+
+#board{
+  width: 100%;
+  height: 100%;
+}
+
+table{
+  width: 100%;
+}
+td{
+  width: 33.3333%
+}
+td:after{
+  content: '';
+  display: block;
+  margin-top: 100%;
+}
