@@ -43,3 +43,28 @@ td{
 tr{
   height: 33.3333%;
 }
+ion-content{
+  background-image: url(../img/bg.jpg);
+}
+.blue{
+  color: blue;
+  font-weight: 600;
+}
+.red{
+  color: red;
+  font-weight: 600;
+}
+
+.buttonWrapper{
+  text-align: center;
+}
+
+button{
+  font-size: 24px;
+  color: white;
+  background-color: #00ff00;
+  position: relative;
+  border-radius: 12px;
+  padding: 12px;
+  margin-top: 50%;
+}

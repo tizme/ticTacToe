@@ -12,12 +12,14 @@ $scope.move = function(location){
     if(turn == 1){
       gameBoard[location]="X"
       console.log("would create an X");
-      $("#"+location+"").text("X")
+      $("#"+location+"").text("X");
+      $("#"+location+"").addClass("red");
     }
     else{
       gameBoard[location]="O"
       console.log("would create an O");
-      $("#"+location+"").text("O")
+      $("#"+location+"").text("O");
+      $("#"+location+"").addClass("blue");
     }
     console.log(gameBoard);
     checkForWin()
