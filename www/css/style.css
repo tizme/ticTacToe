@@ -5,7 +5,7 @@
       border-collapse: collapse;
     }
     td {
-      border: 6px solid #222;
+      border: 6px solid #FFFFFF;
     }
     td:first-of-type {
       border-left-color: transparent;
