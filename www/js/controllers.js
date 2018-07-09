@@ -105,6 +105,7 @@ resetGame = function(){
   clicked = 0;
   for (i=0; i<10; i++){
     $("#"+i+"").text("")
+    $("#"+i+"").removeClass()
   }
   gameBoard = [null,null,null,null,null,null,null,null,null]
 }
